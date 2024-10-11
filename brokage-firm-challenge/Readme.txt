@@ -1,7 +1,11 @@
-There is a basic auhentication for all APIs, username and password as follows :
+*There is a basic auhentication for all APIs, username and password as follows :
 username : admin
 password : admin
 
+*brokage-firm-challenge is the source code of the implementation it has to be build. 
+In other case .jar(brokage-firm-challenge-3.3.4) and run scripts(.sh)(start_brokagefirmchallenge.sh,stop_brokagefirmchallenge.sh) are added into /lib directory. 
+
+*Use Cases
 Create Order: Create a new order for a given customer, asset, side, size and price
 Side can be BUY or SELL. Customer is a unique id for a customer. Asset is the name of the stock customer wants to buy. Size represents how many shares customer wants to buy. Price represents how much customer wants to pay for per share.
 :
