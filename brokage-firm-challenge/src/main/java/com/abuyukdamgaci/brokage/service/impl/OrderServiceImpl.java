@@ -34,7 +34,6 @@ public class OrderServiceImpl implements OrderService {
     public String deleteOrder(String id) throws Exception {
         if(repository.findById(id).get().getStatus().equals("CANCELED")) {
             repository.deleteById(id);
-            System.out.println("ok");
             return "Done";
         }else{
             throw new Exception("Check status of order, it has to be CANCELED.");
