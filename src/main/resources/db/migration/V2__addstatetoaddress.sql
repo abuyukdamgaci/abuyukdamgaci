@@ -1,0 +1,1 @@
+alter table address add state varchar(255);
